@@ -19,3 +19,15 @@ export class CalcService {
 }
 
 
+let isExist: boolean = false;
+let str: string;
+let count: number;
+
+let func = (str: string): number => { return 0; }
+let arr: number[];
+
+let obj: {prop01: number, prop02: string};
+
+let objC: StoreService;
+let objA: any;
+
